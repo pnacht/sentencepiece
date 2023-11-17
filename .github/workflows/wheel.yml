@@ -55,6 +55,12 @@ jobs:
           pip install setuptools wheel twine
           python -m pip install cibuildwheel==2.12.0
 
+          echo "pip:          $(pip version)"
+          echo "setuptools:   $(pip show setuptools | grep Version)"
+          echo "wheel:        $(pip show wheel | grep Version)"
+          echo "twine:        $(pip show twine | grep Version)"
+          echo "cibuildwheel: $(pip show cibuildwheel | grep Version)"
+
       - name: Build wheels
         working-directory: ${{github.workspace}}/python
         run: python -m cibuildwheel --output-dir wheelhouse
