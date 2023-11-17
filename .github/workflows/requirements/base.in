@@ -2,4 +2,3 @@ pip
 setuptools
 wheel
 twine
-cibuildwheel==2.12.0
