@@ -18,9 +18,9 @@ certifi==2023.7.22 \
     # via
     #   -c .github/workflows/requirements/base.txt
     #   cibuildwheel
-cibuildwheel==2.12.0 \
-    --hash=sha256:3d75d58f8e9909f2c9fe4923d03682e9ae27a45d38deba2a76b757114bdcf361 \
-    --hash=sha256:510b13a5cc8d854a82c1a6fa819c874b1f6a3064b90e31fda7b7a649bc8e80af
+cibuildwheel==2.16.2 \
+    --hash=sha256:0f3472a1b927786f74ed3843e78d7cb368a2daeb904503b2129276a23b22f7be \
+    --hash=sha256:bbc86ca937d81745f43ab28fd378bff1c1eaf390370c2f3a6e8224290a50127e
     # via -r .github/workflows/requirements/cibuildwheel.in
 filelock==3.13.1 \
     --hash=sha256:521f5f56c50f8426f5e03ad3b281b490a87ef15bc6c526f168290f0c7148d44e \

@@ -1,2 +1,2 @@
 -c base.txt
-cibuildwheel==2.12.0
+cibuildwheel
